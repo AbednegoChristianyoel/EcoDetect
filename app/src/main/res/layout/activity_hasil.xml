@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_background"
+    tools:context=".ui.hasil.HasilActivity"
+    android:paddingBottom="20dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        android:backgroundTint="@color/card_background_hasil"
+        android:layout_margin="20dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/tv_jenis_sampah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="@string/tv_jenis_sampah"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/greenDark"
+                android:textSize="32sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_tipe_sampah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="@string/tv_tipe_sampah"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/greenDark"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_jenis_sampah" />
+
+            <ImageView
+                android:id="@+id/hasilImageView"
+                android:layout_width="250dp"
+                android:layout_height="320dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/ic_image"
+                app:layout_constraintBottom_toTopOf="@+id/tv_hasil_akurasi"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_tipe_sampah" />
+
+            <TextView
+                android:id="@+id/tv_hasil_akurasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="@string/tv_hasil_akurasi"
+                android:textAlignment="center"
+                android:textColor="@color/greenDark"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/tv_akurasi"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_akurasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="@string/tv_akurasi"
+                android:textAlignment="center"
+                android:textColor="@color/greenDark"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/tv_deskripsi_jenis_sampah"
+                app:layout_constraintEnd_toEndOf="@+id/tv_deskripsi_jenis_sampah"
+                app:layout_constraintStart_toStartOf="@+id/tv_deskripsi_jenis_sampah" />
+
+            <TextView
+                android:id="@+id/tv_deskripsi_jenis_sampah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="@string/tv_deskripsi_jenis_sampah"
+                android:textColor="@color/greenDark"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/btn_cara_daur_ulang"
+                app:layout_constraintEnd_toEndOf="@+id/btn_cara_daur_ulang"
+                app:layout_constraintStart_toStartOf="@+id/btn_cara_daur_ulang" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_cara_daur_ulang"
+                style="@style/GreenButton"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:fontFamily="@font/roboto_bold"
+                android:letterSpacing="0"
+                android:backgroundTint="@color/green"
+                android:text="@string/btn_cara_daur_ulang"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

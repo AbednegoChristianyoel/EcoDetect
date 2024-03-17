@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">EcoDetect</string>
+    <string name="tv_masukan_foto">Masukan gambar sampah yang ingin dideteksi</string>
+    <string name="desc_image_sampah">Gambar dari sampah yang ingin di deteksi</string>
+    <string name="tv_pastikan">Pastikan foto yang Anda kirimkan memiliki kualitas yang cukup jelas dan hindari foto yang buram, terpotong, atau terlalu gelap sehingga sulit untuk mengidentifikasi sampah dengan jelas.</string>
+    <string name="btn_camerax">kamera</string>
+    <string name="btn_gallery">Galeri</string>
+    <string name="btn_scan">Deteksi</string>
+    <string name="tv_jenis_sampah">Jenis Sampah</string>
+    <string name="tv_tipe_sampah">Tipe sampah</string>
+    <string name="tv_deskripsi_jenis_sampah">Plastik merupakan bahan yang terbuat dari polimer sintetis yang bersifat mudah dibentuk dan elastis. Plastik juga dapat didaur ulang menjadi beberapa kerajinan kreatif seperti mainan, pot bunga, tas, dan produk baru lainnya.</string>
+    <string name="btn_cara_daur_ulang">CARA DAUR ULANG</string>
+    <string name="tv_akurasi">90.56%</string>
+    <string name="tv_hasil_akurasi">Hasil akurasi:</string>
+    <string name="title_hasil_scan">Hasil Deteksi</string>
+    <string name="title_eco_detect">Eco Detect</string>
+    <string name="desc_iv_daur_ulang">Gambar daur ulang\n</string>
+    <string name="tv_judul_daur_ulang">Judul daur ulang</string>
+    <string name="desc_iv_icon_right">Gambar ikon right</string>
+    <string name="tv_daftar_daur_not_found">Daftar daur ulang tidak ditemukan</string>
+    <string name="logo_app">logo aplikasi</string>
+    <string name="desc_capture">Tombol untuk mengambil gambar</string>
+    <string name="desc_switch_camera">Tombol untuk mengganti posisi kamera</string>
+    <string name="failed_take_a_picture">Gagal untuk mengambil gambar.</string>
+    <string name="extra_picture">picture</string>
+    <string name="failed_bring_up_camera">Gagal memunculkan kamera.</string>
+    <string name="extra_is_back_camera">isBackCamera</string>
+    <string name="no_permission">Tidak Mendapatkan Izin</string>
+    <string name="intent_type">image/*</string>
+    <string name="choose_image">Pilih Gambar</string>
+    <string name="picture">picture</string>
+    <string name="is_back_camera">isBackCamera</string>
+    <string name="empty_file">File kosong atau tidak ditemukan</string>
+    <string name="scan_berhasil">Prediksi berhasil!</string>
+    <string name="scan_tidak_berhasil">Prediksi tidak berhasil!</string>
+    <string name="memuat">Memuat</string>
+    <string name="mohon_menunggu">Mohon menungu…</string>
+    <string name="title_daur_ulang">Daftar Daur Ulang</string>
+    <string name="tv_alat_dan_bahan">Alat dan Bahan:</string>
+    <string name="tv_cara_membuat">Cara Membuat:</string>
+    <string name="description">Lorem ipsum dolor sit amet consectetur. Morbi neque vitae hac vulputate orci enim pellentesque. Sit nunc consectetur ultricies elit. Viverra aliquet duis neque est tincidunt nec tellus.</string>
+    <string name="title_detail_daur_ulang">Detail Daur Ulang</string>
+
+</resources>
